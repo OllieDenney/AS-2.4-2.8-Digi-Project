@@ -87,13 +87,14 @@ margin: 0;
   height: 33.3%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .rohm-box {
-  /*transform: skew(-15deg);*/
   background: grey;
   width: 20%;
   height: 90%;
+  transform: skew(-15deg);
 }
 
 .rect-box {
@@ -101,6 +102,8 @@ margin: 0;
   width: 30%;
   height: 60%;
   align-content: space-between;
+  margin-left: -5%;
+
 }
 
 .sales-container {
@@ -108,13 +111,7 @@ margin: 0;
 }
 
 .sales {
-  border-style: none;
-  height: 60px;
-  background: none;
-  border: 2px solid #000000;
-  padding: 0 60px;
-  color: #000000;
-  font-size: 24px;
-  outline: none;
-  border-radius: 50px 0;
+  clip-path: polygon(0 40%, 89% 40%, 100% 50%, 100% 100%, 10% 100%, 0 90%);
+  height: 10%;
+  width:10%;
 }
