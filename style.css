@@ -15,10 +15,10 @@ font-family: 'Audiowide', cursive;
 
 
 .dropdown-menu {
-  margin-left: 90%;
-  padding-top: 2%;
+  padding-top: 4%;
   background-color: #Db00B6;
   background-image: url(images/nav-tab-background.png);
+  background-size: cover;
   transform: skew(-15deg);
   border-style: outset;
   border-right-width: 10px;
@@ -30,17 +30,18 @@ font-family: 'Audiowide', cursive;
   border-bottom-right-radius: 5px;
   color: white;
   text-align: center;
+  padding: 2%;
 }
 
 .flex-container {
-  margin-top: 30px;
+  margin-top: 10%;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: column;
   width: 10%;
   position: fixed;
   top: 0;
   z-index: 998;
-  padding-left: 90%;
+  justify-content: flex-end;
 }
 
 .nav-tab {
@@ -48,9 +49,7 @@ font-family: 'Audiowide', cursive;
   height: 30px;
   background-color: #Db00B6;
   background-image: url(images/nav-tab-background.png);
-  transform: skew(-15deg);
-  margin-left: 1%;
-  margin-right: 1%;
+  transform: skew(-15deg) rotate(-15deg);
   border-style: outset;
   border-right-width: 10px;
   border-bottom-width: 10px;
@@ -61,28 +60,9 @@ font-family: 'Audiowide', cursive;
   border-bottom-right-radius: 5px;
   color: white;
   text-align: center;
-  padding-top: 10px;
-}
-
-.nav-tab:hover {
-  width: 22%;
-  height: 35px;
-  background-color: #Db00B6;
-  background-image: url(images/nav-tab-background.png);
-  transform: skew(0deg);
-  margin-left: 0.1%;
-  margin-right: 0.1%;
-  border-style: outset;
-  border-right-width: 10px;
-  border-bottom-width: 10px;
-  border-right-color: #E500A4;
-  border-bottom-color: #D100D1;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 5px;
-  color: white;
-  text-align: center;
-  padding-top: 5px;
+  padding: 15px;
+  margin: 4%;
+  background-size: cover;
 }
 
 .menu {
@@ -207,7 +187,7 @@ font-family: 'Audiowide', cursive;
   margin-right: 3%;
   padding-bottom: 5%;
 }
-
+/*
 .retro-overlay {
   position: absolute;
   top: 0px;
@@ -219,3 +199,4 @@ font-family: 'Audiowide', cursive;
   z-index: 999;
   pointer-events: none;
 }
+*/
