@@ -14,17 +14,37 @@ font-family: 'Audiowide', cursive;
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 
+.dropdown-menu {
+  margin-left: 90%;
+  padding-top: 2%;
+  background-color: #Db00B6;
+  background-image: url(images/nav-tab-background.png);
+  transform: skew(-15deg);
+  border-style: outset;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  border-right-color: #E500A4;
+  border-bottom-color: #D100D1;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
 .flex-container {
+  margin-top: 30px;
   display: flex;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 10%;
   position: fixed;
   top: 0;
   z-index: 998;
+  padding-left: 90%;
 }
 
 .nav-tab {
-  width: 20%;
+  width: 100%;
   height: 30px;
   background-color: #Db00B6;
   background-image: url(images/nav-tab-background.png);
