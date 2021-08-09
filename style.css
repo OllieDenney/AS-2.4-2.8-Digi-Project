@@ -24,6 +24,14 @@ font-family: 'Audiowide', cursive;
 }
 */
 
+.faded-nav {
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  background: linear-gradient(90deg, transparent 0%, black 100%);
+  z-index: 999;
+}
+
 .dropdown-menu {
   margin-top: 0%;
   margin-left: 1.8%;
@@ -214,6 +222,12 @@ font-family: 'Audiowide', cursive;
   padding: 1%;
   transform: skew(-15deg);
   margin: 10px auto;
+  background-image: url(images/moving-particles.gif);
+  background-color: #FF9100;
+  border: 5px solid #FF7900;
+  font-style: italic;
+  font-size: 30px;
+  white-space: pre;
 }
 
 .para-container {
@@ -270,12 +284,17 @@ font-family: 'Audiowide', cursive;
   padding: 2%;
 }
 
+.sales-section {
+}
+
 .sales-container {
   display: flex;
   flex-flow: row;
-  width: 100%;
+  width: 80%;
   height: 200%;
   justify-content: center;
+  margin: 0 auto;
+  margin-top: 5%;
 }
 
 .sales-1, .sales-2, .sales-3 {
@@ -287,6 +306,13 @@ font-family: 'Audiowide', cursive;
   margin-right: 3%;
   padding-bottom: 5%;
   background: linear-gradient(45deg,#0d0232 0%,#5f0090 50%,#1467ab 100%);
+  box-shadow: 5px 10px #888888;
+  position: relative;
+  box-shadow: 20px 25px 50px -25px #000;
+}
+
+.sales-1:hover, .sales-2:hover, .sales-3:hover {
+  margin-top: -2%;
 }
 
 .sales-1, .sales-3 {
@@ -300,22 +326,36 @@ font-family: 'Audiowide', cursive;
 
 .sales-image {
   width: 100%;
+  filter: drop-shadow(0 0 30px #333);
+}
+
+.sales-content {
+  background-color: transparent;
+  border: 2px solid #97DFFC;
+  margin-top: 00%;
+  width: 80%;
+  margin: auto;
+  padding: 2%;
 }
 
 .sales-header {
-  margin-top: -10%;
+  margin-top: 0%;
   font-size: 25px;
   text-align: center;
+  font-style: italic;
 }
 
 .sales-paragraph {
   font-size: 10px;
   margin: 5%;
   text-align: center;
+  color: white;
 }
 
 .sales-button {
-
+  background-image: url(images/glitched-background.gif);
+  background-size: 200% 200%;
+  background-repeat: no-repeat;
 }
 
 .retro-overlay {
