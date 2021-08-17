@@ -30,7 +30,7 @@ function showDiv(){
   $("#nav-tab").fadeIn();
 });
 */
-
+/*
 document.querySelector(document).ready(function(){
     document.querySelector('.up-down').mouseover(function(){
         document.querySelector('.default').stop().animate({
@@ -43,3 +43,5 @@ document.querySelector(document).ready(function(){
     })
 
 });
+
+*/
